@@ -1,5 +1,3 @@
-//nav scroleando XD
-
 window.addEventListener("scroll", function(){
     let header = document.querySelector("header");
     let logo1 = this.document.querySelector(".logo");
@@ -23,3 +21,5 @@ document.getElementById("enlaceHelp").addEventListener("click", mostrar_enlace);
 function mostrar_enlace(){
     document.getElementById("vertical").classList.toggle('visible');
 }
+
+console.log("prueba")
