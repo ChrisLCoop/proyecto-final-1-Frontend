@@ -90,7 +90,7 @@ header{
 
 .logo-nav-vs{
     visibility: none;
-    background-image: url(/icon/logo_small.png);
+    background-image: url(/img/icon/logo_small.png);
     background-size: cover;
     width: 4rem;
     height: 3rem;
@@ -109,7 +109,7 @@ header{
 
 .content-portada{
     top: 0;
-    background-image: url(/icon/fondo-portada-2.jpg);
+    background-image: url(/img/icon/fondo-portada-2.jpg);
     background-size: 100% 100%;
     display: flex;
     align-items: end;
@@ -331,99 +331,99 @@ header{
 
 
 .card-d-1{
-    background-image: url(/img/d-1.jpg);
+    background-image: url(/img/img/d-1.jpg);
 }
 
 .card-d-2{
-    background-image: url(/img/d-2.jpg);
+    background-image: url(/img/img/d-2.jpg);
 }
 
 .card-d-3{
-    background-image: url(/img/d-3.jpg);
+    background-image: url(/img/img/d-3.jpg);
 }
 
 .card-d-4{
-    background-image: url(/img/d-4.jpg);
+    background-image: url(/img/img/d-4.jpg);
 }
 
 .card-d-5{
-    background-image: url(/img/d-5.jpg);
+    background-image: url(/img/img/d-5.jpg);
 }
 
 .card-d-6{
-    background-image: url(/img/d-6.jpg);
+    background-image: url(/img/img/d-6.jpg);
 }
 
 .card-d-7{
-    background-image: url(/img/d-7.jpg);
+    background-image: url(/img/img/d-7.jpg);
 }
 
 .card-d-8{
-    background-image: url(/img/d-8.jpg);
+    background-image: url(/img/img/d-8.jpg);
 }
 
 .card-d-9{
-    background-image: url(/img/d-9.png);
+    background-image: url(/img/img/d-9.png);
 }
 
 .card-d-10{
-    background-image: url(/img/d-10.jpg);
+    background-image: url(/img/img/d-10.jpg);
 }
 
 .card-d-11{
-    background-image: url(/img/d-11.jpg);
+    background-image: url(/img/img/d-11.jpg);
 }
 
 .card-d-12{
-    background-image: url(/img/d-12.jpg);
+    background-image: url(/img/img/d-12.jpg);
 }
 
 .card-d-13{
-    background-image: url(/img/d-13.jpg);
+    background-image: url(/img/img/d-13.jpg);
 }
 
 .card-d-14{
-    background-image: url(/img/d-14.jpg);
+    background-image: url(/img/img/d-14.jpg);
 }
 
 .card-d-15{
-    background-image: url(/img/d-15.jpg);
+    background-image: url(/img/img/d-15.jpg);
 }
 
 .card-d-16{
-    background-image: url(/img/d-16.jpg);
+    background-image: url(/img/img/d-16.jpg);
 }
 
 .card-d-17{
-    background-image: url(/img/d-17.jpg);
+    background-image: url(/img/img/d-17.jpg);
 }
 
 .card-d-18{
-    background-image: url(/img/d-18.jpg);
+    background-image: url(/img/img/d-18.jpg);
 }
 
 .card-d-19{
-    background-image: url(/img/d-19.jpg);
+    background-image: url(/img/img/d-19.jpg);
 }
 
 .card-d-20{
-    background-image: url(/img/d-20.jpg);
+    background-image: url(/img/img/d-20.jpg);
 }
 
 .card-d-21{
-    background-image: url(/img/d-21.jpg);
+    background-image: url(/img/img/d-21.jpg);
 }
 
 .card-d-22{
-    background-image: url(/img/d-22.jpg);
+    background-image: url(/img/img/d-22.jpg);
 }
 
 .card-d-23{
-    background-image: url(/img/d-23.jpg);
+    background-image: url(/img/img/d-23.jpg);
 }
 
 .card-d-24{
-    background-image: url(/img/d-24.jpg);
+    background-image: url(/img/img/d-24.jpg);
 }
 
 
@@ -559,7 +559,7 @@ footer{
 
 
     .content-portada{
-        background-image: url(/icon/fondo-portada-2.jpg);
+        background-image: url(/img/icon/fondo-portada-2.jpg);
         height: 22rem;
     }
 
