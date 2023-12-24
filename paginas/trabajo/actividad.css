@@ -92,7 +92,7 @@ body{
     font-size: 0.9rem;
     font-weight:bold;
     letter-spacing: 0.2rem;
-    translate: 0 30px;
+    margin-top: 10px;
     max-width: 23.729vw;
 }
 
@@ -103,6 +103,7 @@ body{
 .minibiografia1{
     display: flex;
     max-width: 100vw;
+    height: 25.5rem;
     flex-direction: row;
     margin: auto;
 }
@@ -110,6 +111,7 @@ body{
 .minibiografia2{
     display: flex;
     max-width: 100vw;
+    height: 25.5rem;
     flex-direction: row-reverse;
     margin: auto;
 }
@@ -139,10 +141,9 @@ body{
     font-size: 0.9rem;
     font-weight:bold;
     letter-spacing: 0.2rem;
-    translate: 0 30px;
+    margin-top: 10px;
     max-width: 23.729vw;
 }
-
 
 .botom2:hover{
     transform: scale(1.1);
@@ -203,7 +204,7 @@ body{
     height: 6.25rem;
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 50px;
     list-style: none;
     padding: 0;
     animation: slide 40s linear infinite;
@@ -212,20 +213,18 @@ body{
 .logo-item{
     width: 100px;
     height: 100%;
-    transform: scale(0.28);
-}
-
-.logo-envoltura:hover{
-    animation-play-state: paused;
+    transform: scale(0.38);
 }
 
 @media screen and (max-width:650px ) {
 
     .minibiografia1{
         flex-direction: column;
+        padding-bottom: 600px;
     }
     .minibiografia2{
         flex-direction: column;
+        padding-bottom: 600px;
         margin: auto;
     }
 
@@ -271,3 +270,5 @@ body{
         margin: auto;
         max-width: 100%;
     }
+
+
