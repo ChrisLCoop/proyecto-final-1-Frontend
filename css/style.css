@@ -15,9 +15,33 @@ html{
 
 /*-----header-----*/
 
+/*
 body{
     max-width: 1200px;
     margin: auto;
+}*/
+
+/*
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}*/
+
+body{
+    /*
+    background-image: url(../img/ocean.png);
+    background-repeat: repeat;
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(11, 2, 180) 0%, rgba(123,18,221,1) 35%, rgba(0,212,255,1) 100%);
+    background: rgb(2,0,36);
+background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(123,18,221,1) 35%, rgba(15,104,122,1) 97%);
+
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);*/
+    /*background-image: url(../img/Colored_Shapes.svg);*/
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(19, 8, 230) 0%, rgb(241, 136, 247) 0%, rgba(58,139,158,1) 86%);
 }
 
 
@@ -25,6 +49,27 @@ header{
     height: 4.6rem;
     background-color: rgb(23, 203, 206);
     position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.8rem;
+    transition: all ease 0.3s;
+    
+    z-index: 90;
+    
+}
+
+.content-header-fr{
+    height: 4.6rem;
+    background-color: rgb(23, 203, 206);
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -33,7 +78,6 @@ header{
     transition: all ease 0.3s;
     max-width: 1200px;
     z-index: 90;
-    
 }
 
 .menu nav ul{
@@ -80,7 +124,7 @@ header{
 }
 
 .down{
-    background-color: #ffffff;
+    background-color: rgb(23, 203, 206);
 }
 
 .mostrar-costado{
@@ -103,8 +147,6 @@ header{
 
 .frame-portada{
     position: relative;
-    max-width: 1200px;
-    
 }
 
 .content-portada{
@@ -505,13 +547,12 @@ footer{
     width: 100%;
     background-color: black;
     padding: 2rem;
+    
 }
 
 .content-footer{
-    width: 90%;
+    width: 85%;
     margin: auto;
-    max-width: 1400px;
-    
     color: #fff;
     font-family: 'Lato', sans-serif;
     font-size: 0.8rem;
@@ -536,6 +577,22 @@ footer{
 
 .block-ft-2 a{
     padding: 0 0.5rem;
+}
+
+@media screen and (min-width:380px) {
+    
+    .content-info-help h2{
+        font-size: 2.5rem;
+    }
+
+    .content-info-help h3{
+        font-size: 2rem;
+    }
+
+    .content-info-help p{
+        font-size: 0.8rem;
+    }
+
 }
 
 
@@ -566,8 +623,7 @@ footer{
 
 
     .img-port-back{
-        
-        height: 20rem;
+        height: 25rem;
         
         top: 21.05rem;
         
@@ -576,7 +632,7 @@ footer{
     .content-port-back::before{
         
         background-color: rgba(0, 0, 0, 0.581);
-        height: 20rem;
+        height: 25rem;
         top: 21.05rem;
         color: #fff;
         
@@ -601,6 +657,18 @@ footer{
 
     .card-a-h{
         background-size: cover;
+    }
+
+    .content-info-help h2{
+        font-size: 3rem;
+    }
+
+    .content-info-help h3{
+        font-size: 2.5rem;
+    }
+
+    .content-info-help p{
+        font-size: 1.3rem;
     }
     
     
