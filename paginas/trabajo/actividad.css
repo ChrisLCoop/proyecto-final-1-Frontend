@@ -97,6 +97,7 @@ body{
     letter-spacing: 0.2rem;
     margin-top: 10px;
     max-width: 23.729vw;
+    margin-top: 30px;
 }
 
 .botom1:hover{
@@ -145,14 +146,19 @@ body{
     font-size: 0.9rem;
     font-weight:bold;
     letter-spacing: 0.2rem;
-    margin-top: 10px;
     max-width: 23.729vw;
+
+    
 }
 
 .botom2:hover{
     transform: scale(1.1);
 }
 
+/*
+.space-btn{
+    padding-bottom: 40px;
+}*/
 
 .imagen2{
     margin-right: 3.3rem;
@@ -258,8 +264,10 @@ body{
         margin: auto;
     }
     .botom1{
-        margin: auto;
+        
+        margin: 25px auto 0px auto;
         max-width: 100%;
+
     }
     .p3-1{
         max-width: 243px;
@@ -275,7 +283,7 @@ body{
         }
     }
     .botom2{
-        margin: auto;
+        margin: 25px auto 0 auto;
         max-width: 100%;
     }
 

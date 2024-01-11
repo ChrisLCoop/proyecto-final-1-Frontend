@@ -197,6 +197,7 @@ header{
     object-fit: cover;
     top: 18.6rem;
     
+    
 }
 
 .content-port-back{
@@ -253,9 +254,23 @@ header{
 }
 
 .enlace-help p{
-    text-decoration: underline;
     font-size: 1.5rem;
     cursor: pointer;
+    padding: 18px 30px;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 35px;
+    background-color: #1df3fa;
+    font-family: 'Courier New', monospace;
+    color: black;
+    font-weight: bold;
+    box-shadow: 10px 10px 59px 0px rgba(223, 199, 199, 0.75);
+}
+
+.enlace-help p:hover{
+    border: solid 2px rgb(182, 39, 39);
+    background-color: #49e6d8;
+    box-shadow: 10px 10px 59px 0px rgba(240, 2, 2, 0.75);
+
 }
 
 .menu-vertical{
@@ -1292,7 +1307,11 @@ figure img {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+    
 }
+
+
+
 
 .titulo {
     text-align: center;
@@ -1392,5 +1411,11 @@ button {
         width: 95.5%;
         height: 150px;
 
+    }
+}
+
+@media screen and (min-width:768px) {
+    .Contenedor-principal{
+        height: 100vh;
     }
 }

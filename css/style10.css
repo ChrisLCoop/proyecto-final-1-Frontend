@@ -1,244 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-
-body{
-    max-width: 1200px;
-    height: 100%;
-    margin: auto; 
-}
-/*-----header-----*/
-
-
-
-
-header{
-    height: 4.8rem;
-    background-color: rgb(23, 203, 206);
-    position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 0.8rem;
-    transition: all ease 0.3s;
-    max-width: 1200px;
-    z-index: 90;
-    margin: auto;
-    
-}
-
-.menu nav ul{
-    text-align: center;
-}
-
-.menu nav ul li{
-    padding: 1rem 0;
-}
-
-.menu nav ul li a{
-    text-decoration: none;
-    color: #fff;
-}
-
-#icon-menu img{
-    width: 2rem;
-}
-
-.logo img{
-    width: 3rem;
-}
-
-.logo2{
-    width: 0px;
-    height: 0px;
-}
-
-.logo-oculto{
-    display: none;
-}
-
-.menu{
-    width: 0;
-    height: 100vh;
-    position: fixed;
-    top: 4.6rem;
-    left: 0px;
-    background: #0000008f;
-    overflow: hidden;
-    transform: translateX(-21.875rem);
-    box-shadow: 10px 0px 20px -25px black;
-    transition: all ease 0.8s;
-}
-
-.down{
-    background-color: #ffffff;
-}
-
-.mostrar-costado{
-    width: 18.75rem;
-    transform: translateX(0px);
-}
-
-.logo-nav-vs{
-    visibility: none;
-    background-image: url(/icon/logo_small.png);
-    background-size: cover;
-    width: 4rem;
-    height: 3rem;
-    background-repeat: no-repeat;
-    transition: all ease-in-out 0.4s;
-    
-}
-
-/*-----header-----*/
-
-.voluntario1{
-    display: flex;
-    margin-top: 0;
-    margin-left:20px ;
-    margin-right:20px ;
-    margin-bottom: 30px;
-    max-width: 1200px;
-    width: 100%;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    padding-top: 120px;
-    padding-bottom: 30px;
-}
-
-.volutariado1img img{
-    max-width: 85vw;
-    height: auto;
-    margin: 0 auto;
-    object-fit: cover;
-}
-
-
-
-.voluntario2{
-    margin-top: 35px;
-    text-align: center;
-    max-width: 750px;
-}
-.voluntario2 p{
-    font-family: Arial, Helvetica, sans-serif;}
-.voluntario2 strong{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
-}    
-.boton-rosado {
-    background-color: #ff69b4; 
-    color: #fff; 
-    width: 100%;
-    max-width: 280px;
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 20px; 
-    cursor: pointer;
-    font-size: 16px; 
-    transition: transform 0.5s ease;
-    margin-top: 40px;
-    margin: 40px auto;
-  }
-
-.boton-rosado:hover {
-    background-color: #99066d; 
-    transform: scale(1.2);  }
-
-    
-.boton-verde {
-        background-color: #0d8a22; 
-        color: #fff; 
-        max-width: 500px;
-        padding: 10px 20px; 
-        border: none; 
-        border-radius: 20px;    
-        cursor: pointer;
-        font-size: 15px; 
-        transition: transform 0.5s ease;
-        margin-top: 10px;
-      }
-    
-      
-.boton-verde:hover {
-        background-color: #0d8a22; 
-        transform: scale(1.2);  }
-
-.voluntario3{
-            margin-top: 35px;
-            text-align: center;
-            
-        }
-.voluntario3 strong{
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 21px;
-            margin-bottom:5px;
-        }    
-     @media screen and (max-width: 400px){
-   
-    .voluntario2 strong{
-        font-size: 15px ;
-    }
-}
-
-/* /* donaciones    */
-.donaciones2{
-   justify-content: center;
-    text-align: center;
-    padding: 10px;
-    font-size: 20px;
-}
-.donaciones1{
-    width: auto;
-    margin-bottom: 30PX;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-.donaciones3 {
-    display: flex;
-    flex-direction:row ;
-    align-items: center;
-}
-
-.donaciones4 img {
-    max-width:  150px;
-    margin-bottom: 20px;
-}
-.donaciones5 img {
-    width: 200px;
-    margin-bottom: 20px;
-    
-    
-    
-}
-.donaciones4{
-    width:auto;
-    align-items: center;
-    justify-content: center;
-    padding: 0 20px 0 20px;
-    text-align: center;
-}
-.donaciones5{
-    width:auto;
-    padding: 0 20px 0 20px;
-    text-align: center;
-}
-
-@media screen and (max-width: 500px){
-    .donaciones3{
-        display: flex;
-        flex-direction: column;
-    }
-}
 
 /* adopta */
 /*-----cards------*/
@@ -454,6 +213,7 @@ header{
     grid-template-areas: "a1 a2 a3";
     max-width:  50rem;
     margin: 0 auto;
+    padding-bottom: 3rem;
 }
 .tienda31{
     grid-area: a1;
@@ -486,15 +246,18 @@ header{
     transform: scale(1.15);
 }
 .tienda1{
+    margin: 0 auto;
     display: flex;
-    margin-top: 35px;
-    margin-bottom: 30px;
     text-align: center;
     max-width: 100vw;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 5rem;
+    height: 100vh;
 }
+
+
 .tienda1 p{
     font-family: Arial, Helvetica, sans-serif;}
 
@@ -507,6 +270,152 @@ header{
     width: 241px;
     height: 352px;
     object-fit:cover;
+}
+
+@media screen and (max-width:1440px) {
+    .tienda1{
+        height: 140vh;
+    }
+    
+}
+
+@media screen and (max-width:1050px) {
+    .tienda1{
+        height: 95vh;
+    }
+    
+}
+
+@media screen and (max-width:780px) {
+    .tienda1{
+        height: 285vh;
+    }
+    
+}
+
+@media screen and (max-width:450px) {
+    .tienda1{
+        height: 325vh;
+    }
+    
+}
+
+@media screen and (max-width:400px) {
+    .tienda1{
+        height: 345vh;
+    }
+    
+}
+
+
+
+/*---btn--*/
+
+.boton-verde {
+    background-color: #0d8a22; 
+    color: #fff; 
+    max-width: 500px;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px; 
+    transition: transform 0.5s ease;
+    margin-top: 10px;
+}
+
+/*----*/
+
+.voluntario1{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 8rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.boton-verde:hover {
+    background-color: #0d8a22; 
+    transform: scale(1.2);  }
+
+.voluntario3{
+        margin-top: 35px;
+        text-align: center;
+
+    }
+.voluntario3 strong{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 21px;
+        margin-bottom:5px;
+}
+
+.boton-rosado{
+    width: 50%;
+    margin-top: 2rem;
+    border-radius: 15px;
+}
+
+/*----donaciones---*/
+
+.donaciones1{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 8rem;
+    height: 100vh;
+}
+
+.donaciones1 p{
+    padding: 0.5rem 0;
+}
+
+.donaciones3{
+    display: flex;
+}
+
+.donaciones3 img{
+    width: 80%;
+}
+
+.donaciones3 p{
+    font-size: 1.2rem;
+}
+
+.donaciones4{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.donaciones5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donaciones2 h3{
+    padding: 0.8rem 0;
+}
+
+@media screen and (max-width:450px) {
+    .donaciones3{
+        flex-direction: column;
+    }
+
+    .donaciones4{
+        padding-bottom: 2rem;
+    }
+
+    .donaciones1{
+        
+        height: 105vh;
+    }
+    
 }
 
 /*-------footer-------*/
@@ -550,7 +459,7 @@ footer{
 
 
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:768px) {
     .tienda3{
         display: grid;
         grid-template-columns:1fr;
