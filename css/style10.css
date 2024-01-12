@@ -367,7 +367,7 @@
 
 
 
-@media screen and (min-width:769px) {
+@media screen and (min-width:369px) {
     .voluntario3{
         height: auto;
         margin-top: 35px;
@@ -376,6 +376,16 @@
         position: relative;
     }
 }
+
+@media screen and (min-width:1151px) {
+    .voluntario3{
+      display: block;
+        margin-top: 35px;
+        padding-top: 120px;
+        text-align: center;
+       
+       }  
+    }
 .voluntario3 strong{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 21px;
@@ -445,17 +455,7 @@
         height: 105vh;
     }
     
-    .voluntario3{
-        height: auto;
-        margin-top: 35px;
-        padding-top: 15px;
-        text-align: center;
-        display: flex;   
-        justify-content: center;
-    align-items: center;
-    background-color: #000;        
-}
-
+    
 }
 
 /*-------footer-------*/
