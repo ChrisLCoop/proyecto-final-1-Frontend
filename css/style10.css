@@ -28,7 +28,22 @@
     align-items: center;
     align-content: center;
     margin: 30px auto;
+    margin-bottom: 6rem;
 }
+.adoptadiv1{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 750px;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 30px auto;
+    
+}
+
 
 .cards-hel-animal{
     position: relative;
@@ -256,6 +271,7 @@
     flex-direction: column;
     padding-top: 5rem;
     height: 100vh;
+    margin-bottom: 6rem;
 }
 
 
@@ -327,6 +343,9 @@
 
 /*----*/
 
+.volutariado1img img{
+   width: 100%;
+}
 .voluntario1{
     max-width: 1200px;
     width: 100%;
@@ -338,16 +357,25 @@
     align-items: center;
 }
 
-
+.voluntario2{
+    margin:10px 0;
+    text-align: center;
+}
 .boton-verde:hover {
     background-color: #0d8a22; 
     transform: scale(1.2);  }
 
-.voluntario3{
-        margin-top: 35px;
-        text-align: center;
 
+
+@media screen and (min-width:769px) {
+    .voluntario3{
+        height: auto;
+        margin-top: 35px;
+        padding-top: 15px;
+        text-align: center;
+        position: relative;
     }
+}
 .voluntario3 strong{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 21px;
@@ -417,6 +445,17 @@
         height: 105vh;
     }
     
+    .voluntario3{
+        height: auto;
+        margin-top: 35px;
+        padding-top: 15px;
+        text-align: center;
+        display: flex;   
+        justify-content: center;
+    align-items: center;
+    background-color: #000;        
+}
+
 }
 
 /*-------footer-------*/
@@ -488,6 +527,7 @@ footer{
         grid-area: a3;
       
     }
+    
 
 }
 

@@ -164,8 +164,9 @@ body{
     margin-right: 3.3rem;
     max-width: 50.037vw;
     height: 20.188rem;
-    border: solid 5px rgb(226, 190, 212);
+    /* border: solid 5px rgb(226, 190, 212); */
     border-radius: 6px;
+
 }
 
 /* seccion2 */
@@ -201,7 +202,10 @@ body{
 
 .logo-carrusel{
     width: 100vw;
-    translate: 0 -60px;
+    /* translate: 0 -60px; */
+    border: solid rgb(130, 126, 126);
+    height: 12rem;
+    position: relative;
 }
 
 @keyframes slide {
@@ -218,16 +222,33 @@ body{
     height: 6.25rem;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 80px;
     list-style: none;
     padding: 0;
     animation: slide 40s linear infinite;
+  
+   
+}
+
+.logo-carrusel::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 12rem;
+    top: 0;
+    left: 0;
+    border: solid blue;
+    background-color: #fff ;
+    opacity: 0.5;
+    filter: blur(5px);
 }
 
 .logo-item{
     width: 100px;
     height: 100%;
     transform: scale(0.38);
+    margin: 0 20px;
 }
 
 @media screen and (max-width:650px ) {
