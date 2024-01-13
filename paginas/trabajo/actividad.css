@@ -164,8 +164,9 @@ body{
     margin-right: 3.3rem;
     max-width: 50.037vw;
     height: 20.188rem;
-    /* border: solid 5px rgb(226, 190, 212); */
+    
     border-radius: 6px;
+    border: solid 5px rgb(226, 190, 212);
 
 }
 
