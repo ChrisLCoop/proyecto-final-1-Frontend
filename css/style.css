@@ -264,26 +264,25 @@ header{
     color: black;
     font-weight: bold;
     box-shadow: 10px 10px 59px 0px rgba(223, 199, 199, 0.75);
+    transition: all ease-in 0.3s;
 }
 
 .enlace-help p:hover{
     border: solid 2px rgb(182, 39, 39);
     background-color: #49e6d8;
     box-shadow: 10px 10px 59px 0px rgba(240, 2, 2, 0.75);
-
 }
 
 .menu-vertical{
-    top: 2rem;
+    top: 3rem;
     
 }
 
 .menu-vertical{
     position: absolute;
-    display: none;
     list-style: none;
     width: 18.75rem;
-    
+    display: none;
 }
 
 .menu-vertical li{
@@ -301,16 +300,12 @@ header{
     
     padding: 0.5rem 1rem;
     
-    
 }
 
 .visible{
     display: block;
     
 }
-
-
-
 
 /*-----cards------*/
 
@@ -497,6 +492,19 @@ header{
     position: relative;
     top: 37.5rem;
     text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-nl-kl-bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17rem;
+    transition: all ease-in 0.3s;
 }
 
 .content-help-self h2{
@@ -511,6 +519,8 @@ header{
     background-color: #00afa5;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
+    border: solid green;
+    
 
 }
 
@@ -604,7 +614,16 @@ footer{
     padding: 0 0.5rem;
 }
 
-@media screen and (min-width:380px) {
+@media screen and (max-width:499px){
+    .content-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media screen and (min-width:360px) {
     
     .content-info-help h2{
         font-size: 2.5rem;
@@ -618,6 +637,18 @@ footer{
         font-size: 0.8rem;
     }
 
+    .enlace-help{
+        top: 568px;
+    }
+
+    .enlace-help p{
+        font-size: 0.8rem;
+        padding: 8px 20px;
+    }
+
+    .content-help-self a{
+        font-size: 1rem;
+    }
 }
 
 
@@ -625,8 +656,6 @@ footer{
 
 @media screen and (min-width:500px) {
     
-
-
     .content-portada-info .icon-dog{
         height: 8.8rem;
         top: 14rem;
@@ -638,14 +667,10 @@ footer{
         
     }
 
-
-
     .content-portada{
         background-image: url(/icon/fondo-portada-2.jpg);
         height: 22rem;
     }
-
-
 
     .img-port-back{
         height: 25rem;
@@ -759,6 +784,14 @@ footer{
         text-decoration: underline;
         font-size: 1.8rem;
     }
+
+    .content-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
 }
 
 
@@ -806,6 +839,12 @@ footer{
         top: 16.5rem;
         color: #fff;
         
+    }
+
+    .content-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     
 }
@@ -936,6 +975,12 @@ footer{
     .menu nav ul li a:hover{
         background-color: blue;
         color: #fff;
+    }
+
+    .content-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     
     
